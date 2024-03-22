@@ -135,13 +135,14 @@ body{
   max-width: 350px;
 }
 
-.section__images{
-  /* width: 100%; */
+.section__image{
+  width: 400px;
   /* display: flex; */
   /* justify-content: flex-end; */
 }
 
 .section__img{
+  width: 100%;
   max-width: 450px;
   max-height: 350px;
   border-radius: 10px;
@@ -189,7 +190,7 @@ body{
   max-width: 300px;
   /* outline: 1px solid red; */
   flex-grow: 1;
-  flex-basis: 180px;
+  flex-basis: 250px;
 
   text-align: center;
 }
@@ -303,6 +304,22 @@ body{
   color: #0000db;
 }
 
-svg{
-  color: red;
+.footer__icons{
+  display: flex;
+  gap: 2.5rem;
+}
+
+.icon{
+  text-decoration: none;
+
+}
+
+.bi{
+  font-size: 32px;
+  color: #797979;
+  transition: color .2s ease-in;
+}
+
+.bi:hover{
+  color: var(--blue);
 }
