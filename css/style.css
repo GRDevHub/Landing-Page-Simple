@@ -264,13 +264,13 @@ body{
 
 .footer{
   background-color: var(--gray);
-  min-height: 100vh;
+  min-height: 600px;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10rem;
+  gap: 8rem;
 }
 
 .footer__title{
